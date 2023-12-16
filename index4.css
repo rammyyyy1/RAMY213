@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.text1{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/scene-tranquille-foret-tropicale-generee-par-ia.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    
+}
+.text2 {
+    height:10%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 90px;
+    cursor: pointer;
+}
+.menu{
+    width: 25px;
+    cursor: pointer;
+    margin: 40px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 13px;
+}
+.text3{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.text4{
+    flex-basis: 50%;
+
+}
+h1{
+    color: #ffffff;
+    font-size: 100px;
+}
+p{
+    color: #ffffff;
+    font-size: 11px;
+    line-height: 15px;
+}
+button{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background-color: #ffffff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+.card{
+    width: 200px;
+    height: 230px; 
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(/coucher-soleil-tranquille-foret-tropicale-aucun-peuple-genere-par-ia.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    }
+    .card1 {
+        background-image: url(/riviere-entouree-forets-sous-ciel-nuageux-thuringe-allemagne.jpg);
+    }
+    .card2{
+        background-image: url(/plan-vertical-foret-soignes-belgique-bruxelles-soleil-qui-brille-travers-branches.jpg);
+    }
+    .card3{
+        background-image: url(/large-beau-plan-lac-entoure-arbres.jpg);
+    }
+    .card:hover{
+        transform: translateY(-10px);
+    }
+    h5{
+        color: #000000;
+        text-shadow: 0 0 5px #fffafa;
+    }
+    .card p {
+        box-shadow: 0 0 7px white;
+        transition: 1s;
+        text-shadow: #9e9e9e;
+    }
+    li a {
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+
+
+
+

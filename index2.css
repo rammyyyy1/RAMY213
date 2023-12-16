@@ -1,0 +1,47 @@
+body{
+    
+    margin: 0;
+    padding: 0;
+    background-image: url(./mains-ballon-basket.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    
+}
+.text{
+    position: absolute;
+    color: white;
+    top: 30%;
+    left: 20%;
+    text-align: center; 
+    z-index: 2;
+    
+}
+.text h1{
+    font-size: 3rem;
+   
+}
+.text h1:hover{
+    font-size: 4rem;
+    color: orangered;
+    transition: 2s;
+    
+}
+img{
+    z-index:1 ;
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    border-radius: 20px;
+    box-shadow:0 0 10px rgb(0, 0, 0);
+}
+img:hover{
+   
+    box-shadow:0 0 10px rgb(255, 255, 255);
+}
+
+
+
